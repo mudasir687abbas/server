@@ -4,7 +4,7 @@ const app = express();
 app.use(express.json());
 
 app.get("/", (req, res) => {
-  res.send("API running");
+  res.send("Server is running");
 });
 
 export default app;
